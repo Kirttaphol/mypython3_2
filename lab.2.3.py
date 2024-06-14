@@ -4,7 +4,7 @@ cm = int(input("สวนสูง: "))
 bmi = kg/(cm/100)**2
 if bmi<18.50:
     print("น้ำหนักน้อย")
-elif bmi>=18.5 and bmi <= 22.90:
+elif bmi>=18.50 and bmi <= 22.90:
     print("ปกติ")
 elif bmi>=23 and bmi <= 24.90:
     print("ท้วม")
